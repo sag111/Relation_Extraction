@@ -13,7 +13,7 @@ Also, this subset contains pairs of the same entity types between which there is
 
 Model
 --- 
-Proposed model is based on the  [XLM-RoBERTA-large](https://arxiv.org/abs/1911.02116) topology. After the additional training as a langauge model on corpus of unmarked drug reviews, this model was trained as a classification model on 80% of the texts from subset of the corps described above. This model showed the best accuracy on one of the folds of the cross-validation. For additional details see original paper.
+Weights of our model is available on [hugging face repository](https://huggingface.co/sagteam/pharm-relation-extraction/tree/main). Proposed model is based on the  [XLM-RoBERTA-large](https://arxiv.org/abs/1911.02116) topology. After the additional training as a langauge model on corpus of unmarked drug reviews, this model was trained as a classification model on 80% of the texts from subset of the corps described above. This model showed the best accuracy on one of the folds of the cross-validation. For additional details see original paper.
 
 Results
 ---
