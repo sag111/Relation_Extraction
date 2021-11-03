@@ -5,7 +5,7 @@ In this work, we trained a model to recognize 4 types of relationships between e
 
 Data
 ---
-Proposed model is trained on a subset of 908 reviews of the [Russian Drug Review Corpus (RDRS)](https://arxiv.org/pdf/2105.00059.pdf). The subset contains the markup of the following types of entities: and contains pairs of entities marked with the 4 listed types of relationships:
+Proposed model is trained on a subset of 908 reviews of the [Russian Drug Review Corpus (RDRS)](https://arxiv.org/pdf/2105.00059.pdf). The subset contains pairs of entities marked with the 4 listed types of relationships:
 - ADR-Drugname — the relationship between the drug and its side effects
 - Drugname-SourceInfodrug — the relationship between the medication and the source of information about it (e.g., “was advised at the pharmacy”, e.g., “was advised at the pharmacy”, “the doctor recommended it”); 
 - Drugname-Diseasname — the relationship between the drug and the disease
