@@ -1,0 +1,16 @@
+{
+"scheduler": "polynomial_decay_schedule_with_warmup",
+"max_seq_length": 512,
+"save_model_every_epoch": false,
+"use_early_stopping": true,
+"early_stopping_patience": 3,
+"save_best_model": true,
+"save_eval_checkpoints": false,
+"evaluate_during_training": true,
+"early_stopping_metric": "eval_loss",
+"early_stopping_minimize": true,
+"num_train_epochs": 1,
+"learning_rate": 1e-6,
+"train_batch_size": 8,
+"warmup_ratio": 0.1
+}
