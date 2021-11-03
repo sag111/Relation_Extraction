@@ -23,6 +23,9 @@ Here are the accuracy, estimated by the f1 score metric for the recognition of r
 | ------------- | -------------------- | ----------------------- | ---------------------- |
 | 0.955         | 0.892                | 0.922                   | 0.891                  |
 
+Requirements
+---
+Create anaconda env via `conda env create -f relation_extraction_env.yml`. Fix name of the env and it's prefix before.
 
 How to use
 ---
