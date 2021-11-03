@@ -7,7 +7,8 @@ Data
 ---
 Proposed model is trained on a subset of 908 reviews of the [Russian Drug Review Corpus (RDRS)](https://arxiv.org/pdf/2105.00059.pdf). The subset contains the markup of the following types of entities: and contains pairs of entities marked with the 4 listed types of relationships:
 - ADR-Drugname — the relationship between the drug and its side effects
-- Drugname-SourceInfodrug — the relationship between the medication and the187source of information about it (e.g., “was advised at the pharmacy”, “the -Drugname-- - Drugname-Diseasename — the relationship between the drug and the disease
+- Drugname-SourceInfodrug — the relationship between the medication and the source of information about it (e.g., “was advised at the pharmacy”, e.g., “was advised at the pharmacy”, “the doctor recommended it”); 
+- Drugname-Diseasname — the relationship between the drug and the disease
 - Diseasename-Indication — the connection between the illness and its symptoms (e.g., “cough”, “fever 39 degrees”)
 Also, this subset contains pairs of the same entity types between which there is no relationship: for example, a drug and an unrelated side effect that appeared after taking another drug; in other words, this side effect is related to another drug.
 
