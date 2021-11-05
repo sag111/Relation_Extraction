@@ -10,7 +10,7 @@ export LABEL_MAP=$RE_MODEL_DIR/label_map.json
 #the path where the temporal files with predictions will be saved, as well as all intermediate files that are obtained during the inference
 export TEMP_DIR="./temp_data/"
 #path to the json file with predicted relations in the "relations" field
-export RES_JSON_FILE="./RE/inference_results.json"
+export RES_JSON_FILE="./inference_results.json"
 
 
 mkdir -p $TEMP_DIR

@@ -1,6 +1,6 @@
 Description
 ---
-This folder contains a demonstration of evaluating the proposed model on 5 reviews.
+This folder contains a demonstration of evaluating the proposed model on 5 reviews. After the script inference.sh finishes, the inference_results.json file with the model's results will be generated in the directory. Accuracy will also be calculated
 
 Requirements
 ---
